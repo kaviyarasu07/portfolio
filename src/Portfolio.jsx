@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div>
           <h1 className="text-lg font-semibold">Kaviyarasu N. S</h1>
           <p className="text-sm text-gray-500">Software Developer — Java, Spring Boot & Microservices
-            
+
             {/* German Learning */}
             <p className="text-sm text-gray-500 mt-1">🇩🇪 Learning German (A1)</p></p>
         </div>
@@ -69,26 +69,6 @@ export default function Portfolio() {
 
         <div className="mt-6 grid gap-6">
           <article className="p-6 border rounded-lg">
-            <div className="flex flex-col md:flex-row justify-between gap-6">
-              <div className="flex-1">
-                <h4 className="text-lg font-medium">AI Interview Assistant App</h4>
-                <p className="mt-2 text-gray-700">
-                  AI-powered mock interviews for students with text & speech evaluation, performance analytics and resume feedback.
-                </p>
-
-                <ul className="mt-3 text-sm text-gray-600 grid grid-cols-1 md:grid-cols-2 gap-2">
-                  <li><strong>Tech:</strong> Java, Spring Boot, React, NLP models, Docker</li>
-                  <li><strong>Highlights:</strong> Speech/text analysis, scheduled mocks, AI scoring</li>
-                </ul>
-
-                <div className="mt-4 flex gap-3">
-                  <a href="https://github.com/kaviyarasu07" target="_blank" rel="noreferrer" className="text-sm hover:underline">GitHub</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article className="p-6 border rounded-lg">
             <h4 className="text-lg font-medium">Ticket Booking — Microservices Platform</h4>
             <p className="mt-2 text-gray-700">
               Microservices-based ticket booking for concerts and movies. Services: Event, Theatre, Booking, Payment, Notification.
@@ -100,8 +80,9 @@ export default function Portfolio() {
               <li><strong>Highlights:</strong> Distributed locks, idempotent payments, event-driven design</li>
             </ul>
 
-            <div className="mt-4">
+            <div className="mt-4 flex gap-4">
               <a href="https://github.com/kaviyarasu07" target="_blank" rel="noreferrer" className="text-sm hover:underline">GitHub</a>
+              <a href="/tech-discuss" className="text-sm hover:underline text-blue-600 font-medium">Tech Discuss 📝</a>
             </div>
           </article>
 
@@ -129,8 +110,8 @@ export default function Portfolio() {
             My aim is to join engineering teams in Germany and contribute to software that impacts millions of users.
           </p>
 
-           <p>
-           Activily learing Deutsch (A1)
+          <p>
+            Activily learing Deutsch (A1)
           </p>
 
           <div className="mt-4">
@@ -148,8 +129,8 @@ export default function Portfolio() {
         <h3 className="text-2xl font-semibold">Contact</h3>
         <p className="mt-3 text-gray-700">I’m open to backend roles in Germany. Let’s connect!</p>
 
-      <div className="mt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-            <span className="text-sm">+91 99524 65664</span>
+        <div className="mt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+          <span className="text-sm">+91 99524 65664</span>
           <a href="mailto:kaviyarasutt@gmail.com" className="text-sm hover:underline">kaviyarasutt@gmail.com</a>
           <a href="https://www.linkedin.com/in/kaviyarasu-nehru-6a5292162/" target="_blank" rel="noreferrer" className="text-sm hover:underline">LinkedIn</a>
           <a href="https://github.com/kaviyarasu07" target="_blank" rel="noreferrer" className="text-sm hover:underline">GitHub</a>
